@@ -1,0 +1,166 @@
+/*
+azul escuro: rgb(2, 27, 38)
+azul claro: rgb(195, 227, 245)
+
+azul-botao: rgb(23, 176, 228)
+azul-link: rgb(9, 70, 92)
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", "Arial", "sans-serif";
+    text-decoration: none;
+}
+
+body {
+    background-color:rgb(2, 27, 38);
+}
+main {
+    background-color: #fff;
+}
+blockquote, main footer {
+    background-color: rgb(195, 227, 245);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #fff;
+}
+
+header h1 span {
+    color: rgb(23, 176, 228)
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav li {
+    padding: 20px;
+}
+
+nav li a:hover {
+    color: rgb(23, 176, 228)
+}
+
+nav a {
+    color:#fff;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#banner {
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/surf.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin: 1rem 1rem;
+    position: relative;
+}
+
+.banner-container {
+    position: absolute;
+    left: 90px;
+    top: 120px;
+}
+
+#banner h2 {
+    font-size: 5rem;
+}
+
+.services-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+
+.service {
+    background-color: rgb(9, 120, 160);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: rgb(23, 176, 228);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(9, 70, 92);
+}
+
+.consultancy {
+    display: flex;
+    justify-content: space-around;
+}
+
+.consultancy-container {
+    width: 65%;
+}
+
+.consultancy-container h3 {
+    font-size: 2rem;
+}
+
+.consultancy-container img {
+    width: 600px;
+}
+
+.consultancy-img-and-text {
+    margin-top: 1rem;
+    display: flex;
+
+}
+
+.testimonial {
+    width: 25%;
+    padding: 1rem;
+}
+
+.testimonial-container {
+    font-style: italic;
+}
+
+.testimonial-container blockquote {
+    padding: 1rem;
+}
+
+.footer-navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.super-footer {
+    color: #fff;
+}
